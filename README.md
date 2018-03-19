@@ -1,0 +1,2 @@
+# StackCardViewDemo
+一个类似探探的卡片层叠效果，主要使用了RecyclerView.LayoutManager和ItemTouchHelper.Callback两个类

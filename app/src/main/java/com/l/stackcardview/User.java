@@ -1,0 +1,41 @@
+package com.l.stackcardview;
+
+/**
+ * Created by L on 2018/3/15.
+ */
+
+public class User {
+    private int photoResId;    //图片的资源ID
+    private String name;        //名字
+    private String sign;        //个性签名
+
+    public User(int photoResId, String name, String sign) {
+        this.photoResId = photoResId;
+        this.name = name;
+        this.sign = sign;
+    }
+
+    public int getPhotoResId() {
+        return photoResId;
+    }
+
+    public void setPhotoResId(int photoResId) {
+        this.photoResId = photoResId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSign() {
+        return sign;
+    }
+
+    public void setSign(String sign) {
+        this.sign = sign;
+    }
+}
